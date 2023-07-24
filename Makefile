@@ -1,5 +1,5 @@
 PKG_NAME := lib4sbom
-URL = https://github.com/anthonyharrison/lib4sbom/archive/refs/tags/v0.3.1.tar.gz
+URL = https://github.com/anthonyharrison/lib4sbom/archive/v0.4.0/lib4sbom-0.4.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
