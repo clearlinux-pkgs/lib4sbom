@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : lib4sbom
-Version  : 0.4.0
-Release  : 2
-URL      : https://github.com/anthonyharrison/lib4sbom/archive/v0.4.0/lib4sbom-0.4.0.tar.gz
-Source0  : https://github.com/anthonyharrison/lib4sbom/archive/v0.4.0/lib4sbom-0.4.0.tar.gz
+Version  : 0.4.1
+Release  : 3
+URL      : https://github.com/anthonyharrison/lib4sbom/archive/v0.4.1/lib4sbom-0.4.1.tar.gz
+Source0  : https://github.com/anthonyharrison/lib4sbom/archive/v0.4.1/lib4sbom-0.4.1.tar.gz
 Summary  : Software Bill of Material (SBOM) generator and consumer library
 Group    : Development/Tools
 License  : Apache-2.0
@@ -61,10 +61,10 @@ python3 components for the lib4sbom package.
 
 
 %prep
-%setup -q -n lib4sbom-0.4.0
-cd %{_builddir}/lib4sbom-0.4.0
+%setup -q -n lib4sbom-0.4.1
+cd %{_builddir}/lib4sbom-0.4.1
 pushd ..
-cp -a lib4sbom-0.4.0 buildavx2
+cp -a lib4sbom-0.4.1 buildavx2
 popd
 
 %build
@@ -72,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1690217076
+export SOURCE_DATE_EPOCH=1691158160
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
