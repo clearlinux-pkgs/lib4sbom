@@ -7,7 +7,7 @@
 #
 Name     : lib4sbom
 Version  : 0.7.5
-Release  : 21
+Release  : 22
 URL      : https://github.com/anthonyharrison/lib4sbom/archive/v0.7.5/lib4sbom-0.7.5.tar.gz
 Source0  : https://github.com/anthonyharrison/lib4sbom/archive/v0.7.5/lib4sbom-0.7.5.tar.gz
 Summary  : Software Bill of Material (SBOM) generator and consumer library
